@@ -1,5 +1,4 @@
-# Hungary Life MTA
+# Hungary Life MTA Public Issue Tracker
 
 [![Logo](https://i.imgur.com/8PB8ZT9.png "Logo")](hl-rpg.eu "Logo")
-
-Régi repo (archívum 2018-2022): [https://gitlab.com/Xenius/hungarylifemta](https://gitlab.com/Xenius/hungarylifemta)
+Bizalmas információkat ne ossz meg!
