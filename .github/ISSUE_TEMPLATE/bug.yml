@@ -1,0 +1,44 @@
+name: Hibajelentés
+description: Itt jelezheted a hibákat
+labels: bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # Állj meg most azonnal, ha kihasználható hibát jelentenél!
+
+        **Kihasználható hibákat csak a Hungary Life Fórumán jelents a Privát hibajelentéseknél, ahol a fejlesztőkön kívül senki sem látja! (https://forum.hl-rpg.eu/forums/privat-hibajelentesek.785/)**
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: Írd le részletesen a hibát
+      description: Világos és tömör leírás arról, hogy mi a hiba.
+    validations:
+      required: true
+  - type: textarea
+    id: to-reproduce
+    attributes:
+      label: Reprodukálás lépései
+      description: Lépések amivel reprodukálható a hiba:.
+      placeholder: |
+        1. Menj ide '...'
+        2. Kattints erre '...'
+        3. Tekerj ide '...'
+        4. Lásd a hibát
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Egyéb információk
+      description: |
+        Elvárt működés, egyéb leírás pl. elvárt működés stb.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Log
+      description: |
+        Ha van rendelkezésre álló log, kérlek itt oszd meg (clientscript.log, chatlog stb.)
+
+        **Figyelmeztetés!** Személyes információkat ne ossz meg! (ip cím, lakhely stb.)
+      render: shell

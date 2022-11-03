@@ -1,5 +1,5 @@
 ---
-name: Hibajelentés
+name: Hibajelentés (csak tényleges hiba, ami biztosan reprodukálható)
 about: Itt jelezheted a hibákat
 title: ''
 labels: 'bug'
