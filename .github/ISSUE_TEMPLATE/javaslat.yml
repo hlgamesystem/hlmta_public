@@ -23,6 +23,7 @@ body:
       label: Egyéb információk
       description: |
         Adj hozzá bármilyen más kontextust vagy képernyőképeket a funkciókéréssel kapcsolatban.
+        Fórum javaslat esetén link, tulajdonosi engedély esetén egyéb információ arról hogy ténylegesen engedélyezve lett-e.
   - type: checkboxes
     id: terms
     attributes:
