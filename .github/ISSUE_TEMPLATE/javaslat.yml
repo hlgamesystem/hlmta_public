@@ -1,0 +1,32 @@
+name: Bővítés kérése (csak fórumon elfogadott, elbírált, nem segítségkérés!)
+description: Új funkció kérése / meglévő változtatása
+labels: enhancement
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: A funkció iránti kérésed problémához kapcsolódik? Kérlek írd le.
+      description: Világos és tömör leírása arról, hogy mi a probléma. Volt. Mindig csalódott vagyok, amikor [...]
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Írd le a kívánt megoldást
+      placeholder: |
+        Világos és tömör leírása arról, hogy mit szeretnél.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Egyéb információk
+      description: |
+        Adj hozzá bármilyen más kontextust vagy képernyőképeket a funkciókéréssel kapcsolatban.
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Megerősítés
+      options:
+        - label: Kijelentem, hogy a fent említett javaslat fórumon elbírálásra került, vagy Tulajdonosi engedéllyel rendelkezem.
+          required: true
