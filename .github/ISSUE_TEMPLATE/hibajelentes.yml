@@ -1,4 +1,4 @@
-name: Hibajelentés
+name: Hibajelentés (csak tényleges hiba, ami biztosan reprodukálható)
 description: Itt jelezheted a hibákat
 labels: bug
 body:
