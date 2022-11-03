@@ -1,6 +1,6 @@
 ---
-name: Javaslat / bővítés kérése
-about: Javasoljon ötletet ehhez a projekthez
+name: Bővítés kérése (csak fórumon elfogadott, elbírált, nem segítségkérés!)
+about: Új funkció kérése / meglévő változtatása
 title: ''
 labels: 'enhancement'
 assignees: ''
